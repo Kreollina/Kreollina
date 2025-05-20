@@ -19,7 +19,7 @@
                 .Replace("{{Date}}", DateTime.UtcNow.ToString("yyyy-MM-dd"));
 
             await File.WriteAllTextAsync(outputPath, markdown);
-            Console.WriteLine("README.md згенеровано!");
+            Console.WriteLine("README.md generated!");
         }
     }
 }
