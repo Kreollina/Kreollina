@@ -1,12 +1,17 @@
-﻿namespace ReadmeGenerator
+﻿using System;
+using System.IO;
+using System.Threading.Tasks;
+
+namespace ReadmeGenerator
 {
     class Program
     {
         static async Task Main()
         {
-            var baseDir = AppDomain.CurrentDomain.BaseDirectory;
+            var baseDir = AppContext.BaseDirectory;
             var templatePath = Path.Combine(baseDir, "Readme.template.md");
-            var outputPath = Path.Combine(baseDir, "README.md");
+            var repoRoot = Path.GetFullPath(Path.Combine(baseDir, "..", "..", "..", "..")); 
+            var outputPath = Path.Combine(repoRoot, "README.md");
 
             string markdown = await File.ReadAllTextAsync(templatePath);
 
@@ -19,7 +24,8 @@
                 .Replace("{{Date}}", DateTime.UtcNow.ToString("yyyy-MM-dd"));
 
             await File.WriteAllTextAsync(outputPath, markdown);
-            Console.WriteLine("README.md generated!");
+
+            Console.WriteLine("README.md generated at " + outputPath);
         }
     }
 }
