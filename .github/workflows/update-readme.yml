@@ -29,6 +29,10 @@ jobs:
           dotnet restore
           dotnet build --configuration Release
           dotnet run --configuration Release
+          
+      - name: Copy generated README into repo root
+        run: |
+          cp ReadmeGenerator/bin/Release/net8.0/README.md README.md
 
       - name: Commit & push changes
         run: |
