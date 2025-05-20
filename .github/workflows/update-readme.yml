@@ -2,11 +2,10 @@ name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *'    
-  workflow_dispatch: {}  
-
+    - cron: '0 0 * * *'     
+  workflow_dispatch:      
 permissions:
-  contents: write  
+  contents: write       
 
 jobs:
   update-readme:
@@ -18,7 +17,7 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Setup .NET
+      - name: Setup .NET 8
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0.x'
@@ -29,10 +28,10 @@ jobs:
           dotnet restore
           dotnet build --configuration Release
           dotnet run --configuration Release
-          
+
       - name: Auto-commit & push README.md if changed
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: chore: update README
-          file_pattern: README.md
+          commit_message: "chore: update README"
+          file_pattern: "README.md"
           verbose: true
