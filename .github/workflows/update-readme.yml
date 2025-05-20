@@ -1,0 +1,34 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'    # щодня опівночі UTC
+  workflow_dispatch: {}    # можна запускати вручну
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Build & run generator
+        working-directory: src/ReadmeGenerator
+        run: |
+          dotnet restore
+          dotnet build --configuration Release
+          dotnet run --configuration Release
+
+      - name: Commit & push changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet || git commit -m "chore: update README"
+          git push
