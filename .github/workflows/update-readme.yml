@@ -1,9 +1,12 @@
+permissions:
+  contents: write
+
 name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *'    # щодня опівночі UTC
-  workflow_dispatch: {}    # можна запускати вручну
+    - cron: '0 0 * * *'    
+  workflow_dispatch: {}    
 
 jobs:
   build:
@@ -12,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
