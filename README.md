@@ -12,4 +12,4 @@
                 ![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat&logo=dotnet)
 
 ---
-_Оновлено 2025-05-20_
+_Оновлено 2025-05-21_
