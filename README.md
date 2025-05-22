@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kreollina/Kreollina/main/assets/header.png"
+  <img src="https://raw.githubusercontent.com/Kreollina/Kreollina/main/assets/GitHubHeader.jpg"
        alt="Profile Header"
        width="100%" />
 </p>
