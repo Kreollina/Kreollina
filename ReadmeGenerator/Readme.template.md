@@ -4,8 +4,10 @@
        width="100%" />
 </p>
 
+[LinkedIn](https://linkedin.com/in/kreollina)  
+
 ## 📊 Статистика GitHub
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Kreollina&show_icons=true)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Kreollina&show_icons=true&theme=radical)
 
 ## 🛠 Technologies
 {{TechBadges}}
