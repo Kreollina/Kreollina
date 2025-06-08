@@ -15,7 +15,9 @@
       src="https://github-readme-stats.vercel.app/api/pin/?username=Kreollina&repo=CarRental.API&theme=react"
       alt="CarRental.API" />
   </a>
+</p>
   
+<p align="left">
   <a href="https://github.com/Kreollina/CarRental.FrontEnd">
     <img
       src="https://github-readme-stats.vercel.app/api/pin/?username=Kreollina&repo=CarRental.FrontEnd&theme=react"
@@ -24,9 +26,21 @@
 </p>
 
 ## 📊 GitHub Stats
-![GitHub Streak](https://streak-stats.demolab.com?user=Kreollina&theme=react&date_format=j%20M%5B%20Y%5D)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kreollina&langs_count=5&theme=react)
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Kreollina&show_icons=true&theme=react)
+
+<p align="left">
+    <img src="https://streak-stats.demolab.com?user=Kreollina&theme=react&date_format=j%20M%5B%20Y%5D"
+        alt="GitHub Streak" />    
+</p>
+
+<p align="left">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kreollina&langs_count=5&theme=react"
+        alt="Top Langs" />    
+</p>
+
+<p align="left">
+    <img src="https://github-readme-stats.vercel.app/api?username=Kreollina&show_icons=true&theme=react"
+        alt="GitHub stats" />    
+</p>
 
 ## 🛠 Skills
 {{TechBadges}}
