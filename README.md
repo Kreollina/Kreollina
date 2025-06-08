@@ -6,10 +6,12 @@
 
 - [My Linkedin](https://www.linkedin.com/in/nadia-zhurakivska/)
 
-## 📊 Статистика GitHub
+## 📊 GitHub Stats
+[![GitHub Streak](https://streak-stats.demolab.com?user=Kreollina&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kreollina&layout=compact&theme=radical)](
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Kreollina&show_icons=true&theme=radical)
 
-## 🛠 Technologies
+## 🛠 Skills
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c%23)
                 ![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat&logo=dotnet)
                 ![T-SQL](https://img.shields.io/badge/-T--SQL-CC2927?style=flat&logo=microsoft%20sql%20server)
@@ -21,4 +23,4 @@
                 ![Entity Framework](https://img.shields.io/badge/Entity%20Framework-5C2D91?style=flat&logo=entity-framework&logoColor=white)
 
 ---
-_Оновлено 2025-06-08_
+_Update 2025-06-08_
