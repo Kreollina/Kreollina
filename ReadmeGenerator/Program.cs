@@ -24,7 +24,8 @@ namespace ReadmeGenerator
                 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat&logo=visual-studio&logoColor=white)
                 ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white)
                 ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white)
-                ![Entity Framework](https://img.shields.io/badge/Entity%20Framework-5C2D91?style=flat&logo=entity-framework&logoColor=white)";
+                ![Entity Framework](https://img.shields.io/badge/Entity%20Framework-5C2D91?style=flat&logo=entity-framework&logoColor=white)
+                ".Trim();
 
             markdown = markdown
                 .Replace("{{TechBadges}}", badges)
