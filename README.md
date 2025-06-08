@@ -6,9 +6,9 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn–Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nadia-zhurakivska/)
 
-## 🚀 Pinned Repositories
+## 📌 Pinned Repositories
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/Kreollina/CarRental.API">
     <img
       src="https://github-readme-stats.vercel.app/api/pin/?username=Kreollina&repo=CarRental.API&theme=react"
