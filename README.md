@@ -7,9 +7,9 @@
 - [My Linkedin](https://www.linkedin.com/in/nadia-zhurakivska/)
 
 ## 📊 GitHub Stats
-[![GitHub Streak](https://streak-stats.demolab.com?user=Kreollina&theme=algolia&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kreollina&layout=compact&theme=algolia&hide_border=true)
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Kreollina&show_icons=true&theme=react&hide_border=true)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Kreollina&theme=react&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kreollina&layout=compact&theme=react)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Kreollina&show_icons=true&theme=react)
 
 ## 🛠 Skills
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c%23)
