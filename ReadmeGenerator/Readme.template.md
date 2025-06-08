@@ -4,7 +4,7 @@
        width="100%" />
 </p>
 
-- [My Linkedin](https://www.linkedin.com/in/nadia-zhurakivska/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn–Profile-#0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nadia-zhurakivska/)
 
 ## 📊 GitHub Stats
 [![GitHub Streak](https://streak-stats.demolab.com?user=Kreollina&theme=react&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
