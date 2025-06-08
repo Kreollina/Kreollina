@@ -11,19 +11,19 @@
 <p align="center">
   <a href="https://github.com/Kreollina/CarRental.API">
     <img
-      src="https://github-readme-stats.vercel.app/api/pin/?username=Kreollina&repo=CarRental.API&theme=radical"
+      src="https://github-readme-stats.vercel.app/api/pin/?username=Kreollina&repo=CarRental.API&theme=react"
       alt="CarRental.API" />
   </a>
-  &nbsp;&nbsp;
+  
   <a href="https://github.com/Kreollina/CarRental.FrontEnd">
     <img
-      src="https://github-readme-stats.vercel.app/api/pin/?username=Kreollina&repo=CarRental.FrontEnd&theme=radical"
+      src="https://github-readme-stats.vercel.app/api/pin/?username=Kreollina&repo=CarRental.FrontEnd&theme=react"
       alt="CarRental.FrontEnd" />
   </a>
 </p>
 
 ## 📊 GitHub Stats
-[![GitHub Streak](https://streak-stats.demolab.com?user=Kreollina&theme=react&date_format=j%20M%5B%20Y%5D)]
+![GitHub Streak](https://streak-stats.demolab.com?user=Kreollina&theme=react&date_format=j%20M%5B%20Y%5D)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kreollina&layout=compact&theme=react)
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Kreollina&show_icons=true&theme=react)
 
